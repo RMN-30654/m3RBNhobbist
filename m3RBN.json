@@ -6,7 +6,7 @@
       "platforms": [
         {
           "name": "stmesp32",
-          "architecture": "rbn32",
+          "architecture": "stm32f1",
           "version": "1.0.0",
           "category": "rbn32",
           "url": "https://github.com/RMN-30654/m3RBNhobbist/raw/main/archive/rbn32.zip",
@@ -15,7 +15,7 @@
           "size": 3503083,
           "boards" : [
                   { 
-                    "name" : "Generic STM32F103C series"
+                    "name" : "STM32F103C"
                   }
           ],
           "toolsDependencies" : [
