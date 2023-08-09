@@ -24,11 +24,12 @@
                      "version" : "4.8.3-2014q1",
                      "name" : "arm-none-eabi-gcc",
                      "packager" : "arduino"
-                  },
-                "url" : "https://github.com/RMN-30654/m3RBNhobbist/raw/main/archive/STM32F1.zip",
-               "category" : "STM32",
-               "archiveFileName" : "STM32F1-2020.12.17.zip"
-          ]
+                  }
+                
+          ],
+          "url" : "https://github.com/RMN-30654/m3RBNhobbist/raw/main/archive/STM32F1.zip",
+          "category" : "STM32",
+          "archiveFileName" : "STM32F1-2020.12.17.zip"
         }
        
       ],
