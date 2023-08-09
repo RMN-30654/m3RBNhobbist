@@ -8,7 +8,7 @@
           "name": "stmesp32",
           "architecture": "stm32f1",
           "version": "1.0.0",
-          "category": "rbn32",
+          "category": "stm32",
           "url": "https://github.com/RMN-30654/m3RBNhobbist/raw/main/archive/rbn32.zip",
           "archiveFileName": "rbn32.zip",
           "checksum": "SHA-256:6a3e6c3589c12af9124b836ce21e82d4fc6e4a5b369cc574fa0c50b959c1c78a",
@@ -24,7 +24,10 @@
                      "version" : "4.8.3-2014q1",
                      "name" : "arm-none-eabi-gcc",
                      "packager" : "arduino"
-                  }
+                  },
+                "url" : "https://github.com/RMN-30654/m3RBNhobbist/raw/main/archive/STM32F1.zip",
+               "category" : "STM32",
+               "archiveFileName" : "STM32F1-2020.12.17.zip"
           ]
         }
        
