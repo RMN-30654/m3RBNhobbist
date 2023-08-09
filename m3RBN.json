@@ -31,9 +31,9 @@
         ,
         {
           "name": "stm32_esp32",
-          "architecture": "stm32f1",
+          "architecture": "rbn32",
           "version": "1.0.1",
-          "category": "stm32",
+          "category": "rbn32",
           "url": "https://github.com/RMN-30654/boardManager/blob/9bc154e56bce6b619e38d49b52529de0b36353d3/STM32F1.zip",
           "archiveFileName": "STM32F1.zip",
           "checksum": "SHA-256:6a3e6c3589c12af9124b836ce21e82d4fc6e4a5b369cc574fa0c50b959c1c78a",
@@ -48,11 +48,6 @@
                      "version" : "4.8.3-2014q1",
                      "name" : "arm-none-eabi-gcc",
                      "packager" : "arduino"
-                  },
-                  {
-                     "version" : "2020.1.17",
-                     "name" : "stm32tools",
-                     "packager" : "stm32duino"
                   }
           ]
         }
