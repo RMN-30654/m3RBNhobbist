@@ -1,0 +1,91 @@
+{
+  "packages": [
+    {
+      "name": "m3RBN",
+      "maintainer": "RBN hobbist",
+      "platforms": [
+        {
+          "name": "stm32_esp32",
+          "architecture": "rbn32",
+          "version": "1.0.0",
+          "category": "rbn32",   
+          "url": "http://dan.drown.org/stm32duino/STM32F1-2020.1.17.zip",
+          "archiveFileName": "STM32F1-2020.1.17.zip",
+          "checksum": "SHA-256:1bab3a6c8027981182cfd61c8588503d69b7b92a9e2b547a8d4fb86a167ea4cf",
+          "size": "8953132",
+          "boards" : [
+                  { 
+                    "name" : "Generic STM32F103C series"
+                  }
+          ],
+          "toolsDependencies" : [
+                  
+                  {
+                     "version" : "4.8.3-2014q1",
+                     "name" : "arm-none-eabi-gcc",
+                     "packager" : "arduino"
+                  }
+          ]
+        }
+      
+        ,
+        {
+          "name": "stm32_esp32",
+          "architecture": "stm32f1",
+          "version": "1.0.1",
+          "category": "stm32",
+          "url": "https://github.com/RMN-30654/boardManager/blob/9bc154e56bce6b619e38d49b52529de0b36353d3/STM32F1.zip",
+          "archiveFileName": "STM32F1.zip",
+          "checksum": "SHA-256:6a3e6c3589c12af9124b836ce21e82d4fc6e4a5b369cc574fa0c50b959c1c78a",
+          "boards" : [
+                  { 
+                    "name" : "Generic STM32F103C series"
+                  }
+          ],
+          "toolsDependencies" : [
+                  
+                  {
+                     "version" : "4.8.3-2014q1",
+                     "name" : "arm-none-eabi-gcc",
+                     "packager" : "arduino"
+                  },
+                  {
+                     "version" : "2020.1.17",
+                     "name" : "stm32tools",
+                     "packager" : "stm32duino"
+                  }
+          ]
+        }
+      ],
+      "tools" : [
+            {
+               "systems" : [
+                  {
+                     "checksum" : "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0",
+                     "url" : "http://dan.drown.org/stm32duino/tools_win-2020.1.17.zip",
+                     "archiveFileName" : "tools_win-2020.1.17.zip",
+                     "host" : "i686-mingw32",
+                     "size" : 10487028
+                  },
+                  {
+                     "checksum" : "SHA-256:b86398aac0782e8532c9225437600491a35cc39b9f2f67dd4f9151cb9d6d3ee7",
+                     "url" : "http://dan.drown.org/stm32duino/tools_linux64-2020.1.17.tar.gz",
+                     "archiveFileName" : "tools_linux64-2020.1.17.tar.gz",
+                     "size" : 951362,
+                     "host" : "x86_64-pc-linux-gnu"
+                  },
+                  {
+                     "checksum" : "SHA-256:56577080301e06d3df5e5f3512690972ce6d66ce02e63755b8c2c7b51f590f02",
+                     "url" : "http://dan.drown.org/stm32duino/tools_linux-2020.1.17.tar.gz",
+                     "archiveFileName" : "tools_linux-2020.1.17.tar.gz",
+                     "host" : "i686-pc-linux-gnu",
+                     "size" : 914273
+                  }
+               ],
+               "version" : "2020.1.17",
+               "name" : "stm32tools"
+            }
+      ]
+    }
+  ]
+}
