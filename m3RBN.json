@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "esp32",
+      "name": "JRCesp32",
       "maintainer": "m3RBN_JRC",
       "websiteURL": "https://github.com/espressif/arduino-esp32",
       "email": "hristo@espressif.com",
@@ -104,7 +104,7 @@
       "platforms": [
         {
           "version": "2022.9.26",
-          "name": "STM32F1xx boards",
+          "name": "JRCSTM32",
           "boards": [
             {
               "name": "Generic STM32F103C series"
