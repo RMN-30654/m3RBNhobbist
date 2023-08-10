@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "esp32",
-      "maintainer": "Espressif Systems",
+      "maintainer": "m3RBN_JRC",
       "websiteURL": "https://github.com/espressif/arduino-esp32",
       "email": "hristo@espressif.com",
       "help": {
@@ -100,7 +100,7 @@
     },
     {
       "email": "?",
-      "maintainer": "stm32duino",
+      "maintainer": "m3RBN_JRC",
       "platforms": [
         {
           "version": "2022.9.26",
